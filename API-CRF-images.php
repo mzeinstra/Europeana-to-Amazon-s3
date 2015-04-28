@@ -12,7 +12,7 @@ set_time_limit(0);
 ini_set("allow_url_fopen", true);
 
 $base   = 'http://busy-api.de.a9sapp.eu/v2/'; // host name of the API
-$key    = 'api2demo'; // api key
+$key    = 'xxx'; // api key
 //+provider_aggregation_edm_isShownBy:*+OR+provider_aggregation_edm_hasView:*'
 $query  = '*:*'; // search query
 $sizes  = array('medium','large','extra_large'); // images sizes you want to return (small, medium, large, extra_large)
